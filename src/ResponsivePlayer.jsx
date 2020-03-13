@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import thumbnail from './thumbnail.png'
 
 const ResponsivePlayer = ({ url }) => {
 
@@ -25,6 +26,9 @@ text-align: center;
           height='100%'
           volume= '1'
           playing='true'
+          loop='true'
+          controls='true'
+
           />
       </div>
     )
